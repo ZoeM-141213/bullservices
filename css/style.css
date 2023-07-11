@@ -9651,3 +9651,22 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsappIcon {
+  margin-top:14px;
+}
