@@ -698,53 +698,40 @@
           <div class="col-lg-8">
             <div class="contact-form">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate" data-netlify="true" method="post">
-                <div class="form-row">
-                  <div class="col-sm-6 control-group">
-                    <input
-                      type="text"
-                      class="form-control bg-secondary border-0 py-4 px-3"
-                      id="name"
-                      placeholder="Tu nombre"
-                      required="required"
-                      data-validation-required-message="Por favor ingrese su nombre"
-                      name="name"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="col-sm-6 control-group">
-                    <input
-                      type="email"
-                      class="form-control bg-secondary border-0 py-4 px-3"
-                      id="email"
-                      placeholder="Tu email"
-                      required="required"
-                      data-validation-required-message="Por favor ingrese su email"
-                      name="email"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <textarea
-                    class="form-control bg-secondary border-0 py-2 px-3"
-                    rows="6"
-                    id="message"
-                    placeholder="Mensaje"
-                    required="required"
-                    data-validation-required-message="Por favor ingrese un mensaje"
-                    name="message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="text-center">
-                  <button
-                    class="btn btn-primary font-weight-bold py-3 px-5"
-                    type="submit"
-                  >
-                    Enviar mensaje
-                  </button>
-                </div>
+              <form data-netlify="true" method="POST">
+                <input
+                  type="text"
+                  class="form-control bg-secondary border-0 py-4 px-3"
+                  placeholder="Tu nombre"
+                  required="required"
+                  data-validation-required-message="Por favor ingrese su nombre"
+                  name="name"
+                />
+                <p></p>
+                <input
+                  type="email"
+                  class="form-control bg-secondary border-0 py-4 px-3"
+                  placeholder="Tu email"
+                  required="required"
+                  data-validation-required-message="Por favor ingrese su email"
+                  name="email"
+                />
+                <p></p>
+                <textarea
+                  class="form-control bg-secondary border-0 py-2 px-3"
+                  rows="6"
+                  placeholder="Mensaje"
+                  required="required"
+                  data-validation-required-message="Por favor ingrese un mensaje"
+                  name="message"
+                ></textarea>
+                <p></p>
+                <button
+                  class="btn btn-primary font-weight-bold py-3 px-5"
+                  type="submit"
+                >
+                  Enviar mensaje
+                </button>
               </form>
             </div>
           </div>
