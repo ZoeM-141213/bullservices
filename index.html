@@ -698,7 +698,7 @@
           <div class="col-lg-8">
             <div class="contact-form">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form name="sentMessage" id="contactForm" novalidate="novalidate" netlify>
                 <div class="form-row">
                   <div class="col-sm-6 control-group">
                     <input
@@ -708,6 +708,7 @@
                       placeholder="Tu nombre"
                       required="required"
                       data-validation-required-message="Por favor ingrese su nombre"
+                      name="name"
                     />
                     <p class="help-block text-danger"></p>
                   </div>
@@ -719,6 +720,7 @@
                       placeholder="Tu email"
                       required="required"
                       data-validation-required-message="Por favor ingrese su email"
+                      name="email"
                     />
                     <p class="help-block text-danger"></p>
                   </div>
@@ -731,6 +733,7 @@
                     placeholder="Asunto"
                     required="required"
                     data-validation-required-message="Por favor ingrese un asunto"
+                    name="affair"
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -742,6 +745,7 @@
                     placeholder="Mensaje"
                     required="required"
                     data-validation-required-message="Por favor ingrese un mensaje"
+                    name="message"
                   ></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
